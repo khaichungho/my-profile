@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>チャン・ヴァン・カイ - Portfolio</title>
+  <meta property="og:title" content="Kirill Sukhorukov - Portfolio" />
+  <meta property="og:image" content="./assets/images/logo.png" />
+  <!--- favicon-->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--- custom css link-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Google Analytics-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G1H2WJ7XH4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-G1H2WJ7XH4');
+  </script>
+
+</head>
+
+
+<body>
+
+  <!--- #MAIN-->
+
+  <main>
+
+    <!--- #SIDEBAR-->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar.jpg" alt="チャン・ヴァン・カイ">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kirill Sukhorukov">チャン・ヴァン・カイ</h1>
+
+          <p class="title notranslate" id="motto"></p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <ion-icon name="swap-vertical"></ion-icon>
+        </button>
+
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="hourglass"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">年齢</p>
+              <time id="age" class="counting-animation"></time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-sharp"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">現住所</p>
+              <address>ベトナム・BINH DINH省、HOAI AN県、AN NGHIA社、NGHIA DIEN村</address>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="person-sharp"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">性格</p>
+              <address>ENJT-A</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <!-- social -->
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/khaichungho" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="＃" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--- #main-content-->
+
+    <div class="main-content">
+
+      <!--- #NAVBAR-->
+      <nav class="navbar notranslate">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>自己紹介</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>担当業務</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>経歴</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>連絡先</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="modal-container" data-modal-container>
+        <div class="overlay" data-overlay></div>
+        <button class="modal-close-btn" data-modal-close-btn>
+        </button>
+      </div>
+
+
+      <!--- #ABOUT-->
+      <article class="about  active" data-page="自己紹介">
+
+        <header>
+          <h2 class="h2 article-title">自己紹介</h2>
+        </header>
+
+
+        <section class="about-text content-card">
+          <div id="expandable-section">
+            <p>
+              こんにちは！👋
+              私の名前はチャン・ヴァン・カイです。ベトナム出身です。
+              私は初心者のWeb開発者で、人工知能（AI）や機械学習（ML）に関するあらゆることに情熱を持っています。
+              2022年からAIの世界に積極的に関わっており、2020年からはPHPでのプログラミングを行っています。
+            </p>
+            <div id="more" style="display: none;">
+              <p>
+                私は楽しく、社交的で、人とコミュニケーションを取るのが特徴な人です。
+                チームで働くことができて、特にテクノロジーに関連する新しいことを学びたいです。
+              </p>
+
+              <p>
+                とくに、ウェブデザインにはけいけんをもっています。
+                習得したスキルを使用して、会社のイメージと製品を宣伝する会社のウェブサイトを構築したことがあります。
+                （laravel、HTML/CSS/Javascript （jQuery、Ajax）、および SQL
+                を使用）。
+              </p>
+              <p>
+                もしチャンスが有ったら、会社の発展に貢献できるよう精一杯頑張ります。
+                どうぞよろしくお願いします。
+              </p>
+            </div>
+          </div>
+          <center> <button class="more" id="toggle-button" onclick="toggleText()">&darr; &nbsp; &nbsp; もっと見る &nbsp;
+              &nbsp; &darr;</button> </center>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">専門分野</h3>
+
+          <ul class="service-list">
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/laravel_logo.svg" alt="AI & ML Solutions" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Webアプリケーション開発</h4>
+
+                <p class="service-item-text">
+                  PHPを使って動的なウェブサイトを作成。
+                </p>
+                <p class="service-item-text">
+                  HTML、CSS、JavaScriptとの組み合わせ。
+                </p>
+                <p class="service-item-text">
+                  よく使われるフレームワーク：Laravel、Symfony、CodeIgniter。
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/getpostman-icon.svg" alt="Data Analytics & Insights" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">バックエンドAPI開発</h4>
+
+                <p class="service-item-text">
+                  RESTful APIやGraphQL APIを作成し、モバイルアプリやフロントエンドと連携。
+                </p>
+                <p class="service-item-text">
+                  データベース接続や業務ロジックの処理。
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/wordpress.svg" alt="Automation & Smart Systems" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">CMS開発・カスタマイズ</h4>
+
+                <p class="service-item-text">
+                  WordPress、Joomla、DrupalなどのCMSを使用。
+                </p>
+                <p class="service-item-text">
+                  テーマやプラグインのカスタマイズ。
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/mysql.svg" alt="marketing icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">データベース管理</h4>
+
+                <p class="service-item-text">
+                  MySQL、PostgreSQL、SQLiteなどのDBを操作。
+                </p>
+                <p class="service-item-text">
+                  スキーマ設計、クエリ最適化、インデックス設計など。
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+          <br>
+
+          <br>
+
+          <!-- Languages -->
+
+          <!-- Programming Languages -->
+
+          <h3 class="h3 languages-title">言語</h3>
+
+          <section class="languages content-card">
+
+            <div class="languages-column">
+
+              <h3 class="h3 languages-title-second">プログラミング言語</h3>
+
+              <ul class="languages-list">
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">Kotlin</h5>
+                    <data value="5">5%</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width:5%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">HTML & CSS</h5>
+                    <data value="75">75%</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 75%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">JavaScript</h5>
+                    <data value="15">15%</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 15%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">PHP</h5>
+                    <data value="85">85%</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 85%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">C#</h5>
+                    <data value="10">10%</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 10%;"></div>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <!-- Human Languages -->
+            <div class="languages-column">
+
+              <h3 class="h3 languages-title-second">言語能力</h3>
+
+              <ul class="languages-list">
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">ベトナム</h5>
+                    <data value="Advanced">基本</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 100%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">英語</h5>
+                    <data value="elementary">初級レベル</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 25%;"></div>
+                  </div>
+
+                </li>
+
+                <li class="languages-item">
+
+                  <div class="title-wrapper">
+                    <h5 class="h5">日本語</h5>
+                    <data value="elementary">初級レベル</data>
+                  </div>
+
+                  <div class="languages-progress-bg">
+                    <div class="languages-progress-fill" style="width: 50%;"></div>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </section>
+
+          <br>
+
+          <!-- technologies -->
+
+          <h3 class="h3 technologies-title">開発スキル</h3>
+          <br>
+
+          <section class="technologies content-card" id="tech-skills">
+
+            <ul class="technologies-list has-scrollbar slider ">
+
+              <li class="technologies-item">
+                <img src="./assets/images/git.png" alt="Git" id="14">
+              </li>
+
+              <li class="technologies-item">
+                <img src="./assets/images/html.png" alt="HTML" id="1">
+              </li>
+
+              <li class="technologies-item">
+                <img src="./assets/images/css.png" alt="CSS" id="2">
+              </li>
+
+              <li class="technologies-item">
+                <img src="./assets/images/java-script.png" alt="JavaScript" id="3">
+              </li>
+
+              <li class="technologies-item">
+                <img src="./assets/images/php.png" alt="PHP" id="9">
+              </li>
+
+              <li class="technologies-item">
+                <img src="./assets/images/mysql.png" alt="MySQL" id="10">
+              </li>
+
+              <li class="technologies-item">
+                <img src="./assets/images/java.png" alt="Java" id="14">
+              </li>
+
+              <li class="technologies-item">
+                <img src="./assets/images/unity.png" alt="Unity" id="14">
+              </li>
+
+            </ul>
+
+          </section>
+
+          <br>
+          <!-- Next Page -->
+          <div class="pagination-box">
+            <button class="pagination-button" data-nav-link data-target-section="担当業務">Next ></button>
+          </div>
+
+      </article>
+
+
+      <!--- #Projects-->
+      <article class="projects" data-page="担当業務">
+
+        <header>
+          <h2 class="h2 article-title">プロジェクト一覧</h2>
+        </header>
+
+        <section class="projects notranslate">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Utils</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Other</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Utils</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Other</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="utils">
+              <a href="#">
+                <figure class="project-img loading">
+                  <img data-src="https://github.com/K1rsN7/SubManager/blob/main/img/banner.jpg?raw=true" loading="lazy">
+                </figure>
+              </a>
+              <h3 class="project-title">SubManage</h3>
+              <p class="project-category">Utils</p>
+              <p class="project-category">Solo Development</p>
+              <p class="project-development">Python</p>
+              <div class="project-buttons disabled">
+                <a href="#">
+                  <ion-icon name="logo-github"></ion-icon> GitHub
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="other">
+              <a href="#">
+                <figure class="project-img loading">
+                  <img data-src="https://github.com/K1rsN7/TechHaven/blob/master/img/office2.jpg?raw=true"
+                    loading="lazy">
+                </figure>
+              </a>
+              <h3 class="project-title">TechHaven</h3>
+              <p class="project-category">Complete Build</p>
+              <p class="project-category">Solo Development</p>
+              <p class="project-development">JS | PHP | PostgreSQL</p>
+              <div class="project-buttons disabled">
+                <a href="#">
+                  <ion-icon name="logo-github"></ion-icon> GitHub
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ai">
+              <a href="#">
+                <figure class="project-img loading">
+                  <img data-src="https://github.com/K1rsN7/Mushroom_Guide/raw/main/banner.png" loading="lazy">
+                </figure>
+              </a>
+              <h3 class="project-title">Mushroom Guide</h3>
+              <p class="project-category">AI telegram bot</p>
+              <p class="project-category">Solo Development</p>
+              <p class="project-development">Python | Telegram</p>
+              <div class="project-buttons disabled">
+                <a href="#">
+                  <ion-icon name="logo-github"></ion-icon> GitHub
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="">
+              <a href="#">
+                <figure class="project-img loading">
+                  <img data-src="" loading="lazy">
+                </figure>
+              </a>
+              <h3 class="project-title"></h3>
+              <p class="project-category"></p>
+              <p class="project-category"></p>
+              <p class="project-development"></p>
+              <div class="project-buttons disabled">
+                <a href="#">
+                  <ion-icon name="logo-github"></ion-icon> GitHub
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+          <!-- Next Page -->
+          <div class="pagination-box">
+            <button class="pagination-button" data-nav-link data-target-section="経歴">Next ></button>
+          </div>
+
+        </section>
+
+      </article>
+
+      <!-- Certificates -->
+      <article class="certificates" data-page="経歴">
+        <header>
+          <h2 class="h2 article-title">略歴</h2>
+        </header>
+        <!-- Group 1 -->
+        <section class="timeline">
+          <!-- Group 1 -->
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">学歴</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">チャン・クアン・ジエウ高等学校</h4>
+              <p class="timeline-text">
+                2015 - 2018
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">ホーチミン市工業大学</h4>
+              <p class="timeline-text">
+                2018 - 2022
+              </p>
+              <p class="timeline-text">
+                専攻: 情報技術専攻
+              </p>
+            </li>
+          </ol>
+
+          <!-- Group 2 -->
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase"></ion-icon>
+            </div>
+            <h3 class="h3">職歴</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">西部記憶有限会社（ホーチミン市）</h4>
+              <p class="timeline-text">
+                2021 - 2024
+              </p>
+              <p class="timeline-text">
+                職種: Web開発者
+              </p>
+              <p class="timeline-text">
+                主な業務内容:<br>
+                - ネイルサロン専用のウェブサイトを設計・開発しました。<br>
+                - 会社のシステム構築をサポートしました。<br>
+                - ギフトカードの決済機能を実装しました。<br>
+              </p>
+            </li>
+          </ol>
+
+          <!-- <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="language-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Language Proficiency</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">English Language A2</h4>
+              <p class="timeline-text">
+                Author
+              </p>
+              <div class="certificate-container">
+                <img src="" onclick="window.open(this.src)">
+              </div>
+            </li>
+          </ol> -->
+
+          <!-- Next Page -->
+          <div class="pagination-box">
+            <button class="pagination-button" data-nav-link data-target-section="連絡先">Next ></button>
+          </div>
+
+        </section>
+
+      </article>
+
+      <!-- CONTACT-->
+
+      <article class="contact" data-page="連絡先">
+
+        <header>
+          <h2 class="h2 article-title">連絡情報</h2>
+        </header>
+
+        <!-- Copy Email Address -->
+        <div class="content-card">
+          <h3 class="h3 form-title" align="center">Email:</h3>
+          <div class="container">
+            <div class="email-field">
+              <div class="email-text">khaichungho@mail.com</div>
+              <button class="copy-button" onclick="copyEmail(event)">Copy</button>
+            </div>
+          </div>
+        </div>
+        <br>
+        <!-- Social Links -->
+        <div class="content-card">
+          <h3 class="h3 form-title" align="center">Socials:</h3>
+
+          <ul class="social-list">
+
+            <li class="social-item">
+              <a href="https://github.com/khaichungho" class="socials-item">
+                <img src="./assets/images/socials/github.png"></img>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="socials-item">
+                <img src="./assets/images/socials/telegram.png"></img>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="socials-item">
+                <img src="./assets/images/socials/vk.png"></img>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.facebook.com/" class="socials-item">
+                <img src="./assets/images/socials/facebook.png" style="border-radius: 15px;"></img>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="socials-item">
+                <img src="./assets/images/socials/instagram.png" style="border-radius: 15px;"></img>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="socials-item">
+                <img src="./assets/images/socials/linkedin.png" style="border-radius: 15px;"></img>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+        <br>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
