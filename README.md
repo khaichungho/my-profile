@@ -1,6 +1,6 @@
 <img src="./Preview.png">
 <div align="center">
-    <a href="https://github.com/K1rsN7/portfolio/stargazers">
+    <a href="https://github.com/khaichungho">
         <img src="https://img.shields.io/github/stars/K1rsN7/portfolio?color=8FBAD0&labelColor=3D4245&style=for-the-badge" alt="Stars">
     </a>
 </div>
@@ -39,5 +39,5 @@
 <h2 align="center">Contacts</h2>
 <p>Contact me via:</p>
 <ul>
-    <li><a href="https://t.me/k1rsn7">Telegram</a></li>
+    <li><a href="#">Telegram</a></li>
 </ul>
